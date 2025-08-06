@@ -1,0 +1,68 @@
+{
+    "datosPersonales": {
+        "nombre": "Fabio Squizzato",
+        "fechaNacimiento": "21/03/1991",
+        "telefono": "+54 261 60171225",
+        "email": "squizzato.fabio@gmail.com",
+        "direccion": "Mendoza, Argentina",
+        "sitioWeb": "https://resume-fabio.vercel.app",
+        "profesion": "Bioingeniero",
+        "ocupacion": "Software Developer",
+        "foto": "https://avatars.githubusercontent.com/u/70795385?v=4" 
+
+    },
+    "perfiles":{
+        "linkedin": "https://www.linkedin.com/in/squizzato-fabio/",
+        "github": "https://github.com/fabio2100",
+        "w3Schools": "https://www.w3profile.com/fabio21",
+        "facebook": "https://www.facebook.com/fabio21",
+        "instagram": "https://www.instagram.com/fabios15",
+        "matlab": "https://www.mathworks.com/matlabcentral/profile/authors/7845291?s_tid=gn_comm"
+    },
+    "habilidades":{
+        "hardSkills":{
+            "titulo": "Hardskills y tecnologías manejadas",
+            "lista": [
+                "NodeJS, Php, Codeigniter, Express, Postman, MySQL , MongoDB, PostgreSQL, JQuery, Bootstrap, Axios, Vue, Git"
+            ],
+            "texto":"Comprensión tipo de aplicaciones: monolíticas y microservicios, patrón de diseño MVC, uso y creación de APIS, manipulación de sesiones y control de usuarios con JWT, autorización y autenticación, encriptación, cifrado y hasheado de datos, base de datos relacionales y no relacionales, CSR y SSR, AJAX, SPA, versionados"
+        },
+        "softSkills":{
+            "titulo": "Softskills",
+            "texto": "Adaptación, aprendizaje, trabajo individual y en grupos multidisciplinarios, pensamiento crítico"
+        }
+    },
+    "idiomas":{
+        "titulo": "Idiomas",
+        "lista": [
+            "Español - Nativo",
+            "Inglés - Avanzado (C1)"
+        ],
+        "cursosIngles":[{
+            "nombre": "English Plus C1",
+            "institucion": "UNCuyo FFyL",
+            "url": "https://ffyl.uncuyo.edu.ar/curso-idiomas",
+            "fecha":"Primer semestre - 2025"
+        },{
+            "nombre": "English Plus B2+",
+            "institucion": "UNCuyo FFyL",
+            "url": "https://ffyl.uncuyo.edu.ar/curso-idiomas",
+            "fecha":"Segundo semestre - 2024"
+        },{
+            "nombre": "Argentina programa 4.0",
+            "institucion": "Centro Universitario de Idiomas",
+            "url": "https://fabio2100.github.io/curriculum/assets/pdf/certificado_argentina_programa_ingles.pdf",
+            "fecha":"2023"
+        },{
+            "nombre": "English for work",
+            "institucion": "British Council",
+            "url": "https://credentials.englishonline.britishcouncil.org/profile/eu-fabiolucianosquizzato973691/wallet",
+            "fecha":"2023"
+        },{
+            "nombre": "EF SET certificate",
+            "institucion": "EF SET",
+            "url": "https://cert.efset.org/vquArc",
+            "fecha":"2023"
+        }]
+    }
+}
