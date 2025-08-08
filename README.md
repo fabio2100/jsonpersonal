@@ -14,30 +14,88 @@ This repository serves as a personal data API providing information about Fabio 
 - **Language:** English
 - **Content:** Complete personal information in English
 
+## Key Features
+
+✅ **Same Structure**: Both files use identical keys, only content differs  
+✅ **Language Agnostic Code**: Write once, use with any language  
+✅ **Easy Switching**: Change language by changing the endpoint URL  
+✅ **Consistent API**: Same object structure across languages  
+
 ## Data Structure
 
-The API provides the following information:
+Both APIs provide the same structure with the following sections:
 
-- **Personal Data**: Name, contact information, profession, photo, etc.
-- **Social Profiles**: LinkedIn, GitHub, social media links
-- **Skills**: Hard skills, soft skills, technologies
-- **Languages**: Language proficiency and certifications
-- **Courses**: Professional development courses
-- **Work Experience**: Professional background and roles
-- **Education**: Academic background
-- **Portfolio**: Projects with demos, repositories, and descriptions
+- **datosPersonales**: Name, contact information, profession, photo, etc.
+- **perfiles**: LinkedIn, GitHub, social media links
+- **habilidades**: Hard skills, soft skills, technologies
+- **idiomas**: Language proficiency and certifications
+- **cursos**: Professional development courses
+- **experienciaLaboral**: Professional background and roles
+- **educacion**: Academic background
+- **portfolio**: Projects with demos, repositories, and descriptions
 
 ## Usage Examples
 
 ### JavaScript/TypeScript
 ```javascript
-// Spanish version
-const response = await fetch('https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data.json');
-const dataES = await response.json();
+// Function to get data in any language
+async function getPersonalData(language = 'es') {
+  const url = language === 'es' 
+    ? 'https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data.json'
+    : 'https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data-en.json';
+  
+  const response = await fetch(url);
+  const data = await response.json();
+  
+  // Same structure for both languages!
+  console.log(data.datosPersonales.nombre); // Always works
+  console.log(data.portfolio); // Always works
+  
+  return data;
+}
 
-// English version
-const responseEN = await fetch('https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data-en.json');
-const dataEN = await responseEN.json();
+// Usage
+const spanishData = await getPersonalData('es');
+const englishData = await getPersonalData('en');
+```
+
+### React Hook Example
+```javascript
+function usePersonalData(language) {
+  const [data, setData] = useState(null);
+  
+  useEffect(() => {
+    const url = language === 'es' 
+      ? 'https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data.json'
+      : 'https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/data-en.json';
+    
+    fetch(url)
+      .then(response => response.json())
+      .then(setData);
+  }, [language]);
+  
+  return data;
+}
+
+// Component usage - same structure regardless of language
+function Profile({ language }) {
+  const data = usePersonalData(language);
+  
+  if (!data) return <div>Loading...</div>;
+  
+  return (
+    <div>
+      <h1>{data.datosPersonales.nombre}</h1>
+      <p>{data.datosPersonales.acercaDeMi}</p>
+      {data.portfolio.map(project => (
+        <div key={project.nombre}>
+          <h3>{project.nombre}</h3>
+          <p>{project.descripcion}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
 ```
 
 ### Python
