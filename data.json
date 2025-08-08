@@ -23,13 +23,13 @@
     "hardSkills": {
       "titulo": "Hardskills y tecnologías manejadas",
       "lista": [
-        "NodeJS, Php, Codeigniter, Express, Postman, MySQL , MongoDB, PostgreSQL, JQuery, Bootstrap, Axios, Vue, Git"
+        "NodeJS", "PHP", "CodeIgniter", "Express", "Postman", "MySQL", "MongoDB", "PostgreSQL", "jQuery", "Bootstrap", "Axios", "Vue", "Git"
       ],
-      "texto": "Comprensión tipo de aplicaciones: monolíticas y microservicios, patrón de diseño MVC, uso y creación de APIS, manipulación de sesiones y control de usuarios con JWT, autorización y autenticación, encriptación, cifrado y hasheado de datos, base de datos relacionales y no relacionales, CSR y SSR, AJAX, SPA, versionados"
+      "descripcion": "Comprensión tipo de aplicaciones: monolíticas y microservicios, patrón de diseño MVC, uso y creación de APIS, manipulación de sesiones y control de usuarios con JWT, autorización y autenticación, encriptación, cifrado y hasheado de datos, base de datos relacionales y no relacionales, CSR y SSR, AJAX, SPA, versionados"
     },
     "softSkills": {
       "titulo": "Softskills",
-      "texto": "Adaptación, aprendizaje, trabajo individual y en grupos multidisciplinarios, pensamiento crítico"
+      "descripcion": "Adaptación, aprendizaje, trabajo individual y en grupos multidisciplinarios, pensamiento crítico"
     }
   },
   "idiomas": {

@@ -1,0 +1,346 @@
+{
+  "personalData": {
+    "name": "Fabio Squizzato",
+    "birthDate": "1991-03-21",
+    "phone": "+54 261 60171225",
+    "email": "squizzato.fabio@gmail.com",
+    "address": "Mendoza, Argentina",
+    "website": "https://resume-fabio.vercel.app",
+    "profession": "Bioengineer",
+    "occupation": "Software Developer",
+    "photo": "https://avatars.githubusercontent.com/u/70795385?v=4",
+    "aboutMe": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development. I am a proactive, responsible and curious person with good interpersonal relationships."
+  },
+  "profiles": {
+    "linkedin": "https://www.linkedin.com/in/squizzato-fabio/",
+    "github": "https://github.com/fabio2100",
+    "w3Schools": "https://www.w3profile.com/fabio21",
+    "facebook": "https://www.facebook.com/fabio21",
+    "instagram": "https://www.instagram.com/fabios15",
+    "matlab": "https://www.mathworks.com/matlabcentral/profile/authors/7845291?s_tid=gn_comm"
+  },
+  "skills": {
+    "hardSkills": {
+      "title": "Hard skills and technologies",
+      "list": [
+        "NodeJS", "PHP", "CodeIgniter", "Express", "Postman", "MySQL", "MongoDB", "PostgreSQL", "jQuery", "Bootstrap", "Axios", "Vue", "Git"
+      ],
+      "description": "Understanding of application types: monolithic and microservices, MVC design pattern, use and creation of APIs, session manipulation and user control with JWT, authorization and authentication, encryption and data hashing, relational and non-relational databases, CSR and SSR, AJAX, SPA, version control"
+    },
+    "softSkills": {
+      "title": "Soft skills",
+      "description": "Adaptation, learning, individual and multidisciplinary team work, critical thinking"
+    }
+  },
+  "languages": {
+    "title": "Languages",
+    "list": ["Spanish - Native", "English - Advanced (C1)"],
+    "englishCourses": [
+      {
+        "name": "English Plus C1",
+        "institution": "UNCuyo FFyL",
+        "url": "https://ffyl.uncuyo.edu.ar/curso-idiomas",
+        "date": "First semester - 2025"
+      },
+      {
+        "name": "English Plus B2+",
+        "institution": "UNCuyo FFyL",
+        "url": "https://ffyl.uncuyo.edu.ar/curso-idiomas",
+        "date": "Second semester - 2024"
+      },
+      {
+        "name": "Argentina programa 4.0",
+        "institution": "Centro Universitario de Idiomas",
+        "url": "https://fabio2100.github.io/curriculum/assets/pdf/certificado_argentina_programa_ingles.pdf",
+        "date": "2023"
+      },
+      {
+        "name": "English for work",
+        "institution": "British Council",
+        "url": "https://credentials.englishonline.britishcouncil.org/profile/eu-fabiolucianosquizzato973691/wallet",
+        "date": "2023"
+      },
+      {
+        "name": "EF SET certificate",
+        "institution": "EF SET",
+        "url": "https://cert.efset.org/vquArc",
+        "date": "2023"
+      }
+    ]
+  },
+  "courses": [
+    {
+      "name": "Database Diploma",
+      "institution": "UTN BA - E-Learning Center",
+      "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/1294/diplomatura-en-bases-de-datos"
+    },
+    {
+      "name": "Learn React",
+      "institution": "Codecademy",
+      "url": "https://www.codecademy.com/learn/react-101"
+    },
+    {
+      "name": "Java Intermediate Oracle Sun",
+      "institution": "UTN Academias Mendoza",
+      "url": "https://academiasutnmza.com/java-intermedio/"
+    },
+    {
+      "name": "Node: From zero to expert",
+      "institution": "Udemy, Fernando Herrera",
+      "url": "https://www.udemy.com/course/node-de-cero-a-experto/"
+    },
+    {
+      "name": "Learn Javascript ES6, HTML, CSS3 and NodeJS from scratch",
+      "institution": "Udemy, Nicolas Schurman",
+      "url": "https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/"
+    },
+    {
+      "name": "Javascript: from zero to details (ES5)",
+      "institution": "Udemy, Fernando Herrera",
+      "url": "https://www.udemy.com/course/javascript-de-cero-hasta-los-detalles/"
+    },
+    {
+      "name": "PHP/MySQL Course",
+      "institution": "Píldoras informáticas",
+      "url": "https://www.youtube.com/watch?v=I75CUdSJifw&list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_"
+    },
+    {
+      "name": "Python from scratch",
+      "institution": "Píldoras informáticas",
+      "url": "https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Jr Full Stack Developer",
+      "company": "Visual Medica",
+      "period": {
+        "start": "2021-09-01",
+        "end": null,
+        "duration": "September 2021 - Present"
+      },
+      "responsibilities": [
+        "Web development in a company dedicated to offering software services for medical institutions. Visualization of medical studies."
+      ],
+      "technologies": [
+        "PHP",
+        "CodeIgniter",
+        "NodeJS",
+        "Express",
+        "jQuery",
+        "Bootstrap",
+        "React",
+        "PostgreSQL",
+        "PgAdmin",
+        "NextJS"
+      ]
+    },
+    {
+      "position": "Technical assistant in neurosurgeries",
+      "company": "Medicor SA",
+      "period": {
+        "start": "2019-08-01",
+        "end": "2021-06-30",
+        "duration": "August 2019 - June 2021"
+      },
+      "responsibilities": [
+        "Assistance in neurosurgeries",
+        "Planning and preparation of neuronavigator, image collection and approach route planning",
+        "Planning, implementation and conflict resolution of neuronavigator, ultrasonic aspirator, cranial drill and closure plates and materials"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bioengineering",
+      "institution": "Universidad de Mendoza",
+      "period": "2009 - 2018",
+      "details": ["Undergraduate degree", "Academic average: 8.14"]
+    },
+    {
+      "degree": "High School ISEP",
+      "institution": "ISEP",
+      "period": "2003 - 2008",
+      "details": ["Bachelor's degree", "Academic average: 9.14"]
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Central debtors charts",
+      "slug": "graficos-central-deudores",
+      "category": "Data Visualization",
+      "featured": true,
+      "technologies": ["TypeScript", "Recharts", "React", "Github Copilot"],
+      "urls": {
+        "demo": "https://graficos-central-deudores.vercel.app/",
+        "repository": "https://github.com/fabio2100/graficos-central-deudores"
+      },
+      "description": "Application that consumes BCRA (Central Bank of the Argentine Republic) API to show debtor charts. Application made entirely with GitHub Copilot agent mode."
+    },
+    {
+      "name": "Spotify All Tracks",
+      "slug": "spotify-all-tracks",
+      "category": "Music Analytics",
+      "featured": true,
+      "technologies": ["React", "Bulma"],
+      "urls": {
+        "demo": "https://all-tracks.vercel.app/",
+        "repository": "https://github.com/fabio2100/all-tracks"
+      },
+      "description": "Web application to visualize Spotify statistics."
+    },
+    {
+      "name": "Spotify Ranking",
+      "slug": "spotify-ranking",
+      "category": "Music Analytics",
+      "featured": true,
+      "technologies": ["React", "MUI", "NextJS", "PostgreSQL"],
+      "urls": {
+        "demo": "https://spotify-ranking-pi.vercel.app/",
+        "repository": "https://github.com/fabio2100/spotify-ranking"
+      },
+      "description": "Web application that authorizes with Spotify, stores user songs and allows creating rankings according to last login."
+    },
+    {
+      "name": "SUBE movements control",
+      "slug": "control-movimientos-sube",
+      "category": "Finance",
+      "featured": false,
+      "technologies": ["React", "MUI"],
+      "urls": {
+        "demo": "https://movimientossube.vercel.app/",
+        "repository": "https://github.com/fabio2100/movimientossube"
+      },
+      "description": "Application to visualize movements and charts made with SUBE card"
+    },
+    {
+      "name": "Previous personal page",
+      "slug": "personal-page-previous",
+      "category": "Portfolio",
+      "featured": false,
+      "technologies": ["Bootstrap"],
+      "urls": {
+        "demo": "https://fabio2100.github.io/curriculum/",
+        "repository": "https://github.com/fabio2100/curriculum"
+      },
+      "description": "Personal page developed with Bootstrap"
+    },
+    {
+      "name": "QR ticket system",
+      "slug": "sistema-entradas-qr",
+      "category": "Event Management",
+      "featured": false,
+      "technologies": ["PostgreSQL", "NextJS", "Python"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/qrentradas"
+      },
+      "description": "QR ticket management system for a small event. Ticket control, security validation."
+    },
+    {
+      "name": "Flags game",
+      "slug": "juego-banderas",
+      "category": "Games",
+      "featured": false,
+      "technologies": ["React", "Bootstrap"],
+      "urls": {
+        "demo": "https://flags-game-sable.vercel.app/",
+        "repository": "https://github.com/fabio2100/flags-game"
+      },
+      "description": "Game that shows a country flag and three options, updates results and changes flags"
+    },
+    {
+      "name": "Pool simulator",
+      "slug": "simulador-prode",
+      "category": "Games",
+      "featured": false,
+      "technologies": ["React"],
+      "urls": {
+        "demo": "https://simulador-prode-dos.vercel.app/",
+        "repository": "https://github.com/fabio2100/simulador-prode-dos"
+      },
+      "description": "Pool simulator to predict results. Allows choosing results of 5 matches, simulate results and show user matches with simulated results, all with an intuitive interface."
+    },
+    {
+      "name": "Bank simulator",
+      "slug": "simulador-banco",
+      "category": "Finance",
+      "featured": false,
+      "technologies": ["Java", "JFrame", "MySQL"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/cajeroAutomatico"
+      },
+      "description": "ATM simulator, allows performing basic operations such as withdrawing money, checking balance and transferring money."
+    },
+    {
+      "name": "Application with user login and comment posting",
+      "slug": "app-login-comentarios",
+      "category": "Web Application",
+      "featured": false,
+      "technologies": ["Vue", "Bootstrap", "NodeJS", "MongoDB", "Express"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/blogPequenio"
+      },
+      "description": "Application that allows users to register, log in and post comments."
+    },
+    {
+      "name": "Single ballot simulator for 2023 elections in Mendoza",
+      "slug": "boleta-unica-mendoza",
+      "category": "Civic Tech",
+      "featured": false,
+      "technologies": ["Vue", "Vercel"],
+      "urls": {
+        "demo": "https://boleta-unica-mendoza.vercel.app/",
+        "repository": "https://github.com/fabio2100/boleta-unica-mendoza"
+      },
+      "description": "Single ballot simulator for 2023 elections in Mendoza."
+    },
+    {
+      "name": "Football tournament simulator",
+      "slug": "simulador-torneo-futbol",
+      "category": "Sports",
+      "featured": false,
+      "technologies": ["Bootstrap", "PHP", "MySQL"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/torneoMVC"
+      },
+      "description": "Project that allows CRUD of football teams and matches, statistics visualization."
+    },
+    {
+      "name": "Computer-aided mammography diagnosis",
+      "slug": "diagnostico-mamografias",
+      "category": "Medical AI",
+      "featured": true,
+      "technologies": ["Matlab"],
+      "urls": {
+        "video": "https://www.youtube.com/watch?v=Z_wVsGEElHc",
+        "repository": "https://github.com/fabio2100/Computer-Aided-Diagnoses-for-mammographies",
+        "mincyt": "https://www.innovar.mincyt.gob.ar/docs/ganadores2019-innovar.pdf",
+        "argentinagov": "https://www.argentina.gob.ar/noticias/en-su-15deg-aniversario-innovar-premio-al-talento-argentino",
+        "lanacion": "https://www.lanacion.com.ar/sociedad/inteligencia-artificial-nueva-aliada-cancer-mama-nid2311640/"
+      },
+      "description": "Project presented as final work for Bioengineering degree. It allows mammography analysis providing quick diagnosis. The project was winner among more than 3000 projects in the 'Entrepreneurs and innovators' category of the national innovation contest organized by the Ministry of Science and Technology of the Argentine Republic."
+    },
+    {
+      "name": "Fourier Transform Calculator",
+      "slug": "calculadora-fourier",
+      "category": "Mathematical Tools",
+      "featured": false,
+      "technologies": ["Matlab"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/FourierTransform"
+      },
+      "description": "Graphical interface that allows loading a signal and visualizing its Fourier transform. Made in Matlab."
+    },
+    {
+      "name": "New developments and bugs found",
+      "slug": "desarrollos-bugs",
+      "category": "Documentation",
+      "featured": false,
+      "technologies": ["Github"],
+      "urls": {
+        "repository": "https://github.com/fabio2100/soluciones"
+      },
+      "description": "Text files with various professional developments made and solutions to bugs found."
+    }
+  ]
+}
