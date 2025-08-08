@@ -256,15 +256,70 @@
       "descripcion": "Simulador de un cajero automático, permite realizar operaciones básicas como retirar dinero, consultar saldo y transferir dinero."
     },
     {
-      "nombre": "",
-      "tecnologias": [],
+      "nombre": "Aplicación con login de usuarios y posteo de comentarios",
+      "tecnologias": ["Vue","Bootstrap","NodeJs","Mongo","Express"],
       "urls": [
         {
-          "urlProyecto": "",
-          "urlRepositorio": ""
+          "urlRepositorio": "https://github.com/fabio2100/blogPequenio"
         }
       ],
-      "descripcion": ""
+      "descripcion": "Aplicación que permite a los usuarios registrarse, iniciar sesión y publicar comentarios."
+    }
+    ,
+    {
+      "nombre": "Simulador de Boleta única para elecciones 2023 en Mendoza",
+      "tecnologias": ["Vue","Vercel"],
+      "urls": [
+        {
+          "urlProyecto": "https://boleta-unica-mendoza.vercel.app/",
+          "urlRepositorio": "https://github.com/fabio2100/boleta-unica-mendoza"
+        }
+      ],
+      "descripcion": "Simulador de Boleta única para elecciones 2023 en Mendoza."
+    },
+    {
+      "nombre": "Simulador de torneo de fútbol",
+      "tecnologias": ["Bootstrap","Php","MySQL"],
+      "urls": [
+        {
+          "urlRepositorio": "https://github.com/fabio2100/torneoMVC"
+        }
+      ],
+      "descripcion": "Proyecto que permite ABM de equipos de fútbol y partidos de fútbol, visualización de estadísticas."
+    },
+    {
+      "nombre": "Diagnóstico de mamografías asistido por ordenador",
+      "tecnologias": ["Matlab"],
+      "urls": [
+        {
+          "urlVideo": "https://www.youtube.com/watch?v=Z_wVsGEElHc",
+          "urlRepositorio": "https://github.com/fabio2100/Computer-Aided-Diagnoses-for-mammographies",
+          "urlMincyt":"https://www.innovar.mincyt.gob.ar/docs/ganadores2019-innovar.pdf",
+          "urlArgentinaGob":"https://www.argentina.gob.ar/noticias/en-su-15deg-aniversario-innovar-premio-al-talento-argentino",
+          "urlLaNacionDiario":"https://www.lanacion.com.ar/sociedad/inteligencia-artificial-nueva-aliada-cancer-mama-nid2311640/"
+        }
+      ],
+      "descripcion": "Proyecto presentado como trabajo final para la carrera de Bioingería. El mismo permite realizar un análisis de mamografías brindando un rápido diagnóstico. El proyecto resultó ganador entre más de 3000 de proyectos en la categoría 'Emprendendores e innovadores' del concurso nacional de innovaciones organizado por el Ministerio de Ciecia y Tecnología de la República Argentina."
+    },
+    {
+      "nombre": "Calculadora de la Transformada de Fourier",
+      "tecnologias": ["Matlab"],
+      "urls": [
+        {
+          "urlRepositorio": "https://github.com/fabio2100/FourierTransform"
+        }
+      ],
+      "descripcion": "Interfaz gráfica que permite cargar una señal y visualizar su transformada de Fourier. Realizada en Matlab."
+    },
+    {
+      "nombre": "Nuevos desarrollos y bugs encontrados",
+      "tecnologias": ["Github"],
+      "urls": [
+        {
+          "urlRepositorio": "https://github.com/fabio2100/soluciones"
+        }
+      ],
+      "descripcion": "Archivos de texto con diversos desarrollos profesionales realizados y soluciones a bugs encontrados."
     }
   ]
 }
