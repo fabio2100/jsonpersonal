@@ -9,7 +9,10 @@
     "profesion": "Bioengineer",
     "ocupacion": "Software Developer",
     "foto": "https://avatars.githubusercontent.com/u/70795385?v=4",
-    "acercaDeMi": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development, specialized in PACS integration and DICOM protocol usage. I am a proactive, responsible and curious person with good interpersonal relationships."
+    "acercaDeMi": {
+      "titulo": "About me",
+      "descripcion": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development, specialized in PACS integration and DICOM protocol usage. I am a proactive, responsible and curious person with good interpersonal relationships."
+    }
   },
   "perfiles": {
     "linkedin": "https://www.linkedin.com/in/squizzato-fabio/",
@@ -20,16 +23,55 @@
     "matlab": "https://www.mathworks.com/matlabcentral/profile/authors/7845291?s_tid=gn_comm"
   },
   "habilidades": {
+    "titulo": "Skills",
     "hardSkills": {
       "titulo": "Hard skills and technologies",
       "lista": [
-        "PACS","DICOM","Vibe Coding","GitHub Copilot","Claude Sonnet","","NodeJS", "PHP", "CodeIgniter", "Express", "Postman", "MySQL", "MongoDB", "PostgreSQL", "jQuery", "Bootstrap", "Axios", "Vue", "Git", "AWS Lambda"
+        "PACS",
+        "DICOM",
+        "Vibe Coding",
+        "GitHub Copilot",
+        "Claude Sonnet",
+        "",
+        "NodeJS",
+        "PHP",
+        "CodeIgniter",
+        "Express",
+        "Postman",
+        "MySQL",
+        "MongoDB",
+        "PostgreSQL",
+        "jQuery",
+        "Bootstrap",
+        "Axios",
+        "Vue",
+        "Git",
+        "AWS Lambda"
       ],
-      "descripcion": ["AI-assisted coding, Vibe coding: Use of Gemini, Claude Sonnet and GPT models","Understanding of application types: monolithic and microservices", "MVC design pattern", "Use and creation of APIs", "Session manipulation and user control with JWT", "Authorization and authentication", "Encryption and data hashing", "Relational and non-relational databases", "CSR and SSR", "AJAX", "SPA", "Version control"]
+      "descripcion": [
+        "AI-assisted coding, vibe coding: Use of Gemini, Claude Sonnet and GPT models",
+        "Understanding of application types: monolithic and microservices",
+        "MVC design pattern",
+        "Use and creation of APIs",
+        "Session manipulation and user control with JWT",
+        "Authorization and authentication",
+        "Encryption and data hashing",
+        "Relational and non-relational databases",
+        "CSR and SSR",
+        "AJAX",
+        "SPA",
+        "Version control"
+      ]
     },
     "softSkills": {
       "titulo": "Soft skills",
-      "descripcion": ["Adaptation", "learning", "individual and multidisciplinary team work", "critical thinking","Documentation writing"]
+      "descripcion": [
+        "Adaptation",
+        "learning",
+        "individual and multidisciplinary team work",
+        "critical thinking",
+        "Documentation writing"
+      ]
     }
   },
   "idiomas": {
@@ -68,256 +110,269 @@
       }
     ]
   },
-  "cursos": [
-    {
-      "nombre": "Database Diploma",
-      "lugar": "UTN BA - E-Learning Center",
-      "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/1294/diplomatura-en-bases-de-datos"
-    },
-    {
-      "nombre": "Learn React",
-      "lugar": "Codecademy",
-      "url": "https://www.codecademy.com/learn/react-101"
-    },
-    {
-      "nombre": "Java Intermediate Oracle Sun",
-      "lugar": "UTN Academias Mendoza",
-      "url": "https://academiasutnmza.com/java-intermedio/"
-    },
-    {
-      "nombre": "Node: From zero to expert",
-      "lugar": "Udemy, Fernando Herrera",
-      "url": "https://www.udemy.com/course/node-de-cero-a-experto/"
-    },
-    {
-      "nombre": "Learn Javascript ES6, HTML, CSS3 and NodeJS from scratch",
-      "lugar": "Udemy, Nicolas Schurman",
-      "url": "https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/"
-    },
-    {
-      "nombre": "Javascript: from zero to details (ES5)",
-      "lugar": "Udemy, Fernando Herrera",
-      "url": "https://www.udemy.com/course/javascript-de-cero-hasta-los-detalles/"
-    },
-    {
-      "nombre": "PHP/MySQL Course",
-      "lugar": "Píldoras informáticas",
-      "url": "https://www.youtube.com/watch?v=I75CUdSJifw&list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_"
-    },
-    {
-      "nombre": "Python from scratch",
-      "lugar": "Píldoras informáticas",
-      "url": "https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS"
-    }
-  ],
-  "experienciaLaboral": [
-    {
-      "puesto": "Jr Full Stack Developer",
-      "empresa": "Visual Medica",
-      "fecha": "September 2021 - Present",
-      "responsabilidades": [
-        "Web development in a company dedicated to offering software services for medical institutions. Visualization of medical studies."
-      ],
-      "tecnologias": [
-        "PHP",
-        "CodeIgniter",
-        "NodeJS",
-        "Express",
-        "jQuery",
-        "Bootstrap",
-        "React",
-        "PostgreSQL",
-        "PgAdmin",
-        "NextJS"
-      ]
-    },
-    {
-      "puesto": "Technical assistant in neurosurgeries",
-      "empresa": "Medicor SA",
-      "fecha": "August 2019 - June 2021",
-      "responsabilidades": [
-        "Assistance in neurosurgeries",
-        "Planning and preparation of neuronavigator, image collection and approach route planning",
-        "Planning, implementation and conflict resolution of neuronavigator, ultrasonic aspirator, cranial drill and closure plates and materials"
-      ]
-    }
-  ],
-  "educacion": [
-    {
-      "nombre": "Bioengineering",
-      "institucion": "Universidad de Mendoza",
-      "fecha": "2009 - 2018",
-      "data": ["Undergraduate degree", "Academic average: 8.14"]
-    },
-    {
-      "nombre": "High School ISEP",
-      "institucion": "ISEP",
-      "fecha": "2003 - 2008",
-      "data": ["Bachelor's degree", "Academic average: 9.14"]
-    }
-  ],
-  "portfolio": [
-    {
-      "nombre": "Central debtors charts",
-      "tecnologias": ["TypeScript", "Recharts", "React", "Github Copilot"],
-      "urls": [
-        {
-          "urlProyecto": "https://graficos-central-deudores.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/graficos-central-deudores"
-        }
-      ],
-      "descripcion": "Application that consumes BCRA (Central Bank of the Argentine Republic) API to show debtor charts. Application made entirely with GitHub Copilot agent mode."
-    },
-    {
-      "nombre": "Spotify All Tracks",
-      "tecnologias": ["React", "Bulma"],
-      "urls": [
-        {
-          "urlProyecto": "https://all-tracks.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/all-tracks"
-        }
-      ],
-      "descripcion": "Web application to visualize Spotify statistics."
-    },
-    {
-      "nombre": "Spotify Ranking",
-      "tecnologias": ["React", "MUI", "NextJS", "PostgreSQL"],
-      "urls": [
-        {
-          "urlProyecto": "https://spotify-ranking-pi.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/spotify-ranking"
-        }
-      ],
-      "descripcion": "Web application that authorizes with Spotify, stores user songs and allows creating rankings according to last login."
-    },
-    {
-      "nombre": "SUBE movements control",
-      "tecnologias": ["React", "MUI"],
-      "urls": [
-        {
-          "urlProyecto": "https://movimientossube.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/movimientossube"
-        }
-      ],
-      "descripcion": "Application to visualize movements and charts made with SUBE card"
-    },
-    {
-      "nombre": "Previous personal page",
-      "tecnologias": ["Bootstrap"],
-      "urls": [
-        {
-          "urlProyecto": "https://fabio2100.github.io/curriculum/",
-          "urlRepositorio": "https://github.com/fabio2100/curriculum"
-        }
-      ],
-      "descripcion": "Personal page developed with Bootstrap"
-    },
-    {
-      "nombre": "QR ticket system",
-      "tecnologias": ["PostgreSQL", "NextJS", "Python"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/qrentradas"
-        }
-      ],
-      "descripcion": "QR ticket management system for a small event. Ticket control, security validation."
-    },
-    {
-      "nombre": "Flags game",
-      "tecnologias": ["React", "Bootstrap"],
-      "urls": [
-        {
-          "urlProyecto": "https://flags-game-sable.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/flags-game"
-        }
-      ],
-      "descripcion": "Game that shows a country flag and three options, updates results and changes flags"
-    },
-    {
-      "nombre": "Pool simulator",
-      "tecnologias": ["React"],
-      "urls": [
-        {
-          "urlProyecto": "https://simulador-prode-dos.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/simulador-prode-dos"
-        }
-      ],
-      "descripcion": "Pool simulator to predict results. Allows choosing results of 5 matches, simulate results and show user matches with simulated results, all with an intuitive interface."
-    },
-    {
-      "nombre": "Bank simulator",
-      "tecnologias": ["Java", "JFrame", "MySQL"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/cajeroAutomatico"
-        }
-      ],
-      "descripcion": "ATM simulator, allows performing basic operations such as withdrawing money, checking balance and transferring money."
-    },
-    {
-      "nombre": "Application with user login and comment posting",
-      "tecnologias": ["Vue", "Bootstrap", "NodeJs", "Mongo", "Express"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/blogPequenio"
-        }
-      ],
-      "descripcion": "Application that allows users to register, log in and post comments."
-    },
-    {
-      "nombre": "Single ballot simulator for 2023 elections in Mendoza",
-      "tecnologias": ["Vue", "Vercel"],
-      "urls": [
-        {
-          "urlProyecto": "https://boleta-unica-mendoza.vercel.app/",
-          "urlRepositorio": "https://github.com/fabio2100/boleta-unica-mendoza"
-        }
-      ],
-      "descripcion": "Single ballot simulator for 2023 elections in Mendoza."
-    },
-    {
-      "nombre": "Football tournament simulator",
-      "tecnologias": ["Bootstrap", "Php", "MySQL"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/torneoMVC"
-        }
-      ],
-      "descripcion": "Project that allows CRUD of football teams and matches, statistics visualization."
-    },
-    {
-      "nombre": "Computer-aided mammography diagnosis",
-      "tecnologias": ["Matlab"],
-      "urls": [
-        {
-          "urlVideo": "https://www.youtube.com/watch?v=Z_wVsGEElHc",
-          "urlRepositorio": "https://github.com/fabio2100/Computer-Aided-Diagnoses-for-mammographies",
-          "urlMincyt": "https://www.innovar.mincyt.gob.ar/docs/ganadores2019-innovar.pdf",
-          "urlArgentinaGob": "https://www.argentina.gob.ar/noticias/en-su-15deg-aniversario-innovar-premio-al-talento-argentino",
-          "urlLaNacionDiario": "https://www.lanacion.com.ar/sociedad/inteligencia-artificial-nueva-aliada-cancer-mama-nid2311640/"
-        }
-      ],
-      "descripcion": "Project presented as final work for Bioengineering degree. It allows mammography analysis providing quick diagnosis. The project was winner among more than 3000 projects in the 'Entrepreneurs and innovators' category of the national innovation contest organized by the Ministry of Science and Technology of the Argentine Republic."
-    },
-    {
-      "nombre": "Fourier Transform Calculator",
-      "tecnologias": ["Matlab"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/FourierTransform"
-        }
-      ],
-      "descripcion": "Graphical interface that allows loading a signal and visualizing its Fourier transform. Made in Matlab."
-    },
-    {
-      "nombre": "New developments and bugs found",
-      "tecnologias": ["Github"],
-      "urls": [
-        {
-          "urlRepositorio": "https://github.com/fabio2100/soluciones"
-        }
-      ],
-      "descripcion": "Text files with various professional developments made and solutions to bugs found."
-    }
-  ]
+  "cursos": {
+    "titulo": "Courses and certifications",
+    "lista": [
+      {
+        "nombre": "Database Diploma",
+        "lugar": "UTN BA - E-Learning Center",
+        "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/1294/diplomatura-en-bases-de-datos"
+      },
+      {
+        "nombre": "Learn React",
+        "lugar": "Codecademy",
+        "url": "https://www.codecademy.com/learn/react-101"
+      },
+      {
+        "nombre": "Java Intermediate Oracle Sun",
+        "lugar": "UTN Academias Mendoza",
+        "url": "https://academiasutnmza.com/java-intermedio/"
+      },
+      {
+        "nombre": "Node: From zero to expert",
+        "lugar": "Udemy, Fernando Herrera",
+        "url": "https://www.udemy.com/course/node-de-cero-a-experto/"
+      },
+      {
+        "nombre": "Learn Javascript ES6, HTML, CSS3 and NodeJS from scratch",
+        "lugar": "Udemy, Nicolas Schurman",
+        "url": "https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/"
+      },
+      {
+        "nombre": "Javascript: from zero to details (ES5)",
+        "lugar": "Udemy, Fernando Herrera",
+        "url": "https://www.udemy.com/course/javascript-de-cero-hasta-los-detalles/"
+      },
+      {
+        "nombre": "PHP/MySQL Course",
+        "lugar": "Píldoras informáticas",
+        "url": "https://www.youtube.com/watch?v=I75CUdSJifw&list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_"
+      },
+      {
+        "nombre": "Python from scratch",
+        "lugar": "Píldoras informáticas",
+        "url": "https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS"
+      }
+    ]
+  },
+  "experienciaLaboral": {
+    "lista": [
+      {
+        "puesto": "Jr Full Stack Developer",
+        "empresa": "Visual Medica",
+        "fecha": "September 2021 - Present",
+        "responsabilidades": [
+          "Web development in a company dedicated to offering software services for medical institutions. Visualization of medical studies."
+        ],
+        "tecnologias": [
+          "Php",
+          "Codeigniter",
+          "NodeJs",
+          "Express",
+          "JQuery",
+          "Bootstrap",
+          "React",
+          "PostgreSQL",
+          "PgAdmin",
+          "NextJS",
+          "Bootstrap"
+        ]
+      },
+      {
+        "puesto": "Technical assistant in neurosurgeries",
+        "empresa": "Medicor SA",
+        "fecha": "August 2019 - June 2021",
+        "responsabilidades": [
+          "Assistance in neurosurgeries",
+          "Planning and preparation of neuronavigator, image collection and approach route planning",
+          "Planning, implementation and conflict resolution of neuronavigator, ultrasonic aspirator, cranial drill and closure plates and materials"
+        ]
+      }
+    ],
+    "titulo": "Work Experience"
+  },
+  "educacion": {
+    "titulo": "Education",
+    "lista": [
+      {
+        "nombre": "Bioengineering",
+        "institucion": "Universidad de Mendoza",
+        "fecha": "2009 - 2018",
+        "data": ["Undergraduate degree", "Academic average: 8.14"]
+      },
+      {
+        "nombre": "High School ISEP",
+        "institucion": "ISEP",
+        "fecha": "2003 - 2008",
+        "data": ["Bachelor's degree", "Academic average: 9.14"]
+      }
+    ]
+  },
+  "portfolio": {
+    "titulo": "Portfolio",
+    "lista": [
+      {
+        "nombre": "Central debtors charts",
+        "tecnologias": ["TypeScript", "Recharts", "React", "Github Copilot"],
+        "urls": [
+          {
+            "urlProyecto": "https://graficos-central-deudores.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/graficos-central-deudores"
+          }
+        ],
+        "descripcion": "Application that consumes BCRA (Central Bank of the Argentine Republic) API to show debtor charts. Application made entirely with GitHub Copilot agent mode."
+      },
+      {
+        "nombre": "Spotify All Tracks",
+        "tecnologias": ["React", "Bulma"],
+        "urls": [
+          {
+            "urlProyecto": "https://all-tracks.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/all-tracks"
+          }
+        ],
+        "descripcion": "Web application to visualize Spotify statistics."
+      },
+      {
+        "nombre": "Spotify Ranking",
+        "tecnologias": ["React", "MUI", "NextJS", "PostgreSQL"],
+        "urls": [
+          {
+            "urlProyecto": "https://spotify-ranking-pi.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/spotify-ranking"
+          }
+        ],
+        "descripcion": "Web application that authorizes with Spotify, stores user songs and allows creating rankings according to last login."
+      },
+      {
+        "nombre": "SUBE movements control",
+        "tecnologias": ["React", "MUI"],
+        "urls": [
+          {
+            "urlProyecto": "https://movimientossube.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/movimientossube"
+          }
+        ],
+        "descripcion": "Application to visualize movements and charts made with SUBE card"
+      },
+      {
+        "nombre": "Previous personal page",
+        "tecnologias": ["Bootstrap"],
+        "urls": [
+          {
+            "urlProyecto": "https://fabio2100.github.io/curriculum/",
+            "urlRepositorio": "https://github.com/fabio2100/curriculum"
+          }
+        ],
+        "descripcion": "Personal page developed with Bootstrap"
+      },
+      {
+        "nombre": "QR ticket system",
+        "tecnologias": ["PostgreSQL", "NextJS", "Python"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/qrentradas"
+          }
+        ],
+        "descripcion": "QR ticket management system for a small event. Ticket control, security validation."
+      },
+      {
+        "nombre": "Flags game",
+        "tecnologias": ["React", "Bootstrap"],
+        "urls": [
+          {
+            "urlProyecto": "https://flags-game-sable.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/flags-game"
+          }
+        ],
+        "descripcion": "Game that shows a country flag and three options, updates results and changes flags"
+      },
+      {
+        "nombre": "Pool simulator",
+        "tecnologias": ["React"],
+        "urls": [
+          {
+            "urlProyecto": "https://simulador-prode-dos.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/simulador-prode-dos"
+          }
+        ],
+        "descripcion": "Pool simulator to predict results. Allows choosing results of 5 matches, simulate results and show user matches with simulated results, all with an intuitive interface."
+      },
+      {
+        "nombre": "Bank simulator",
+        "tecnologias": ["Java", "JFrame", "MySQL"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/cajeroAutomatico"
+          }
+        ],
+        "descripcion": "ATM simulator, allows performing basic operations such as withdrawing money, checking balance and transferring money."
+      },
+      {
+        "nombre": "Application with user login and comment posting",
+        "tecnologias": ["Vue", "Bootstrap", "NodeJs", "Mongo", "Express"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/blogPequenio"
+          }
+        ],
+        "descripcion": "Application that allows users to register, log in and post comments."
+      },
+      {
+        "nombre": "Single ballot simulator for 2023 elections in Mendoza",
+        "tecnologias": ["Vue", "Vercel"],
+        "urls": [
+          {
+            "urlProyecto": "https://boleta-unica-mendoza.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/boleta-unica-mendoza"
+          }
+        ],
+        "descripcion": "Single ballot simulator for 2023 elections in Mendoza."
+      },
+      {
+        "nombre": "Football tournament simulator",
+        "tecnologias": ["Bootstrap", "Php", "MySQL"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/torneoMVC"
+          }
+        ],
+        "descripcion": "Project that allows CRUD of football teams and matches, statistics visualization."
+      },
+      {
+        "nombre": "Computer-aided mammography diagnosis",
+        "tecnologias": ["Matlab"],
+        "urls": [
+          {
+            "urlVideo": "https://www.youtube.com/watch?v=Z_wVsGEElHc",
+            "urlRepositorio": "https://github.com/fabio2100/Computer-Aided-Diagnoses-for-mammographies",
+            "urlMincyt": "https://www.innovar.mincyt.gob.ar/docs/ganadores2019-innovar.pdf",
+            "urlArgentinaGob": "https://www.argentina.gob.ar/noticias/en-su-15deg-aniversario-innovar-premio-al-talento-argentino",
+            "urlLaNacionDiario": "https://www.lanacion.com.ar/sociedad/inteligencia-artificial-nueva-aliada-cancer-mama-nid2311640/"
+          }
+        ],
+        "descripcion": "Project presented as final work for Bioengineering degree. It allows mammography analysis providing quick diagnosis. The project was winner among more than 3000 projects in the 'Entrepreneurs and innovators' category of the national innovation contest organized by the Ministry of Science and Technology of the Argentine Republic."
+      },
+      {
+        "nombre": "Fourier Transform Calculator",
+        "tecnologias": ["Matlab"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/FourierTransform"
+          }
+        ],
+        "descripcion": "Graphical interface that allows loading a signal and visualizing its Fourier transform. Made in Matlab."
+      },
+      {
+        "nombre": "New developments and bugs found",
+        "tecnologias": ["Github"],
+        "urls": [
+          {
+            "urlRepositorio": "https://github.com/fabio2100/soluciones"
+          }
+        ],
+        "descripcion": "Text files with various professional developments made and solutions to bugs found."
+      }
+    ]
+  }
 }
