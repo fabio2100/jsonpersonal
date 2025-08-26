@@ -9,7 +9,7 @@
     "profesion": "Bioengineer",
     "ocupacion": "Software Developer",
     "foto": "https://avatars.githubusercontent.com/u/70795385?v=4",
-    "acercaDeMi": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development. I am a proactive, responsible and curious person with good interpersonal relationships."
+    "acercaDeMi": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development, specialized in PACS integration and DICOM protocol usage. I am a proactive, responsible and curious person with good interpersonal relationships."
   },
   "perfiles": {
     "linkedin": "https://www.linkedin.com/in/squizzato-fabio/",
@@ -23,13 +23,13 @@
     "hardSkills": {
       "titulo": "Hard skills and technologies",
       "lista": [
-        "NodeJS", "PHP", "CodeIgniter", "Express", "Postman", "MySQL", "MongoDB", "PostgreSQL", "jQuery", "Bootstrap", "Axios", "Vue", "Git"
+        "PACS","DICOM","Vibe Coding","GitHub Copilot","Claude Sonnet","","NodeJS", "PHP", "CodeIgniter", "Express", "Postman", "MySQL", "MongoDB", "PostgreSQL", "jQuery", "Bootstrap", "Axios", "Vue", "Git", "AWS Lambda"
       ],
-      "descripcion": "Understanding of application types: monolithic and microservices, MVC design pattern, use and creation of APIs, session manipulation and user control with JWT, authorization and authentication, encryption and data hashing, relational and non-relational databases, CSR and SSR, AJAX, SPA, version control"
+      "descripcion": ["AI-assisted coding, Vibe coding: Use of Gemini, Claude Sonnet and GPT models","Understanding of application types: monolithic and microservices", "MVC design pattern", "Use and creation of APIs", "Session manipulation and user control with JWT", "Authorization and authentication", "Encryption and data hashing", "Relational and non-relational databases", "CSR and SSR", "AJAX", "SPA", "Version control"]
     },
     "softSkills": {
       "titulo": "Soft skills",
-      "descripcion": "Adaptation, learning, individual and multidisciplinary team work, critical thinking"
+      "descripcion": ["Adaptation", "learning", "individual and multidisciplinary team work", "critical thinking","Documentation writing"]
     }
   },
   "idiomas": {
