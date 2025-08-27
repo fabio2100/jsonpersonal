@@ -50,6 +50,7 @@
       ],
       "descripcion": [
         "Código asistido por IA, vibe coding: Uso de modelos Gemini, Claude Sonnet y GPT",
+        "Protocolo Dicom y PACS: Configuración servidor Dicom, lectura, visualización, envío de estudios",
         "Comprensión tipo de aplicaciones: monolíticas y microservicios",
         "Patrón de diseño MVC",
         "Uso y creación de APIS",
