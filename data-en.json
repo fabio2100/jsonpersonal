@@ -8,6 +8,7 @@
     "sitioWeb": "https://resume-fabio.vercel.app",
     "profesion": "Bioengineer",
     "ocupacion": "Software Developer",
+    "cvpdf":"https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/assets/CVFabioSquizzatoEng.pdf",
     "foto": "https://cdn.jsdelivr.net/gh/fabio2100/jsonPersonal@master/images/perfil.jpg",
     "acercaDeMi": {
       "titulo": "About me",
