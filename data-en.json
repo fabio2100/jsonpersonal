@@ -216,6 +216,17 @@
   "portfolio": {
     "titulo": "Portfolio",
     "lista": [
+            {
+        "nombre": "National Routes Status of Argentina",
+        "tecnologias": ["OpenStreetMap", "React", "Vite", "Github Copilot"],
+        "urls": [
+          {
+            "urlProyecto": "https://rutasnacionales.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/rutasnacionales"
+          }
+        ],
+        "descripcion": "Application that consumes data from https://www.argentina.gob.ar/transporte/vialidad-nacional/estado-de-rutas, processes it, and then displays it on OpenStreetMap. Docker was used for Routing Machine, then those responses were taken and placed alongside the route indicators."
+      },
       {
         "nombre": "Central debtors charts",
         "tecnologias": ["TypeScript", "Recharts", "React", "Github Copilot"],
