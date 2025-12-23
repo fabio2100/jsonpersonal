@@ -221,7 +221,7 @@
         "tecnologias": ["OpenStreetMap", "React", "Vite", "Github Copilot"],
         "urls": [
           {
-            "urlProyecto": "https://rutasnacionales.vercel.app/",
+            "urlProyecto": "https://www.rutasnacionales.ar/",
             "urlRepositorio": "https://github.com/fabio2100/rutasnacionales"
           }
         ],
