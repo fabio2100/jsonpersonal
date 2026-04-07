@@ -8,7 +8,7 @@
     "sitioWeb": "https://resume-fabio.vercel.app",
     "profesion": "Bioingeniero",
     "ocupacion": "Software Developer",
-    "cvpdf":"https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/assets/CVFabioSquizzatoEsp.pdf",
+    "cvpdf": "https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/assets/CVFabioSquizzatoEsp.pdf",
     "foto": "https://cdn.jsdelivr.net/gh/fabio2100/jsonPersonal@master/images/perfil.jpg",
     "acercaDeMi": {
       "titulo": "Acerca de mi",
@@ -216,6 +216,25 @@
   "portfolio": {
     "titulo": "Portfolio",
     "lista": [
+      {
+        "nombre": "Controlador de gastos de tarjeta de crédito",
+        "tecnologias": [
+          "TypeScript",
+          "React",
+          "MUI",
+          "NextJS",
+          "PostgreSQL",
+          "MUI charts",
+          "Apex charts"
+        ],
+        "urls": [
+          {
+            "urlProyecto": "d-track-ojf8.vercel.app",
+            "urlRepositorio": "https://github.com/fabio2100/card_track"
+          }
+        ],
+        "descripcion": "Aplicación web para controlar gastos personales de tarjeta de crédito, permite calcular mes a mes gastos, visualizar fechas de pagos por mes, gastos por mes y demás."
+      },
       {
         "nombre": "Estado de rutas nacionales de Argentina",
         "tecnologias": ["OpenStreetMap", "React", "Vite", "Github Copilot"],
