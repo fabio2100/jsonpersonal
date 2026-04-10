@@ -216,6 +216,25 @@
   "portfolio": {
     "titulo": "Portfolio",
     "lista": [
+      {
+        "nombre": "Cards data expenses control",
+        "tecnologias": [
+          "TypeScript",
+          "React",
+          "MUI",
+          "NextJS",
+          "PostgreSQL",
+          "MUI charts",
+          "Apex charts"
+        ],
+        "urls": [
+          {
+            "urlProyecto": "https://card-track-ojf8.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/card_track"
+          }
+        ],
+        "descripcion": "Web application to control personal credit card expenses, allows calculating monthly expenses, visualizing payment dates by month, expenses by month, and more."
+      },
             {
         "nombre": "National Routes Status of Argentina",
         "tecnologias": ["OpenStreetMap", "React", "Vite", "Github Copilot"],
