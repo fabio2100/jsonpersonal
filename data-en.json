@@ -217,7 +217,18 @@
     "titulo": "Portfolio",
     "lista": [
       {
-        "nombre": "Cards data expenses control",
+        "nombre": "Antipodes Visualization on Map",
+        "tecnologias": ["Python", "Github pages"],
+        "urls": [
+          {
+            "urlProyecto": "https://fabio2100.github.io/antipodal/",
+            "urlRepositorio": "https://github.com/fabio2100/antipodal"
+          }
+        ],
+        "descripcion": "Web application that allows visualizing antipodes on a map. It allows to select a point and see its antipodal point."
+      },
+      {
+        "nombre": "Cards Data Expenses Control",
         "tecnologias": [
           "TypeScript",
           "React",

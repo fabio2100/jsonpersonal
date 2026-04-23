@@ -217,6 +217,17 @@
     "titulo": "Portfolio",
     "lista": [
       {
+        "nombre": "Visualización de antípodas en mapa",
+        "tecnologias": ["Python", "Github pages"],
+        "urls": [
+          {
+            "urlProyecto": "https://fabio2100.github.io/antipodal/",
+            "urlRepositorio": "https://github.com/fabio2100/antipodal"
+          }
+        ],
+        "descripcion": "Aplicación web que muestra un planisferio y calcula la antípoda de un punto seleccionado"
+      },
+      {
         "nombre": "Controlador de gastos de tarjeta de crédito",
         "tecnologias": [
           "TypeScript",
