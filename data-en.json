@@ -28,10 +28,10 @@
     "hardSkills": {
       "titulo": "Hard skills and technologies",
       "lista": [
-        "GitHub Copilot",
-        "Claude Sonnet",
-        "gpt models",
+        "Claude: Fable, Opus, Sonnet, Haiku",
+        "gpt models: Codex",
         "Gemini",
+        "GitHub Copilot",
         "React",
         "NextJS",
         "NodeJS",
@@ -170,6 +170,9 @@
           "Web development in a company dedicated to offering software services for medical institutions. Visualization of medical studies."
         ],
         "tecnologias": [
+          "Claude",
+          "Gemini",
+          "Antigravity",
           "Php",
           "Codeigniter",
           "NodeJs",
