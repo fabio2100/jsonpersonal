@@ -12,7 +12,7 @@
     "foto": "https://cdn.jsdelivr.net/gh/fabio2100/jsonPersonal@master/images/perfil.jpg",
     "acercaDeMi": {
       "titulo": "About me",
-      "descripcion": "I am a graduate in Bioengineering, and I currently work in software development, mainly web development, specialized in PACS integration and DICOM protocol usage. I am a proactive, responsible and curious person with good interpersonal relationships."
+      "descripcion": "I am a graduate in Bioengineering, and I work in software development, mainly web development, specialized in PACS integration and DICOM protocol usage. I am a proactive, responsible and curious person with good interpersonal relationships."
     }
   },
   "perfiles": {
@@ -165,7 +165,7 @@
       {
         "puesto": "Jr Full Stack Developer",
         "empresa": "Visual Medica",
-        "fecha": "September 2021 - Present",
+        "fecha": "September 2021 - August 2026",
         "responsabilidades": [
           "Web development in a company dedicated to offering software services for medical institutions. Visualization of medical studies."
         ],
