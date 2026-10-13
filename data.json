@@ -119,6 +119,16 @@
     "titulo": "Cursos y certificaciones",
     "lista": [
       {
+        "nombre": "Claude 101",
+        "lugar": "Anthropic Academy",
+        "url": "https://verify.skilljar.com/c/fmf3m25hogct"
+      },
+      {
+        "nombre": "Claude Code 101",
+        "lugar": "Anthropic Academy",
+        "url": "https://verify.skilljar.com/c/jirvi99p6z7a"
+      },
+      {
         "nombre": "Diplomatura en base de datos",
         "lugar": "UTN BA - Centro de E Learning",
         "url": "https://sceu.frba.utn.edu.ar/e-learning/detalle/diplomatura/1294/diplomatura-en-bases-de-datos"
