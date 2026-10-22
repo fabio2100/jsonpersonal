@@ -8,7 +8,7 @@
     "sitioWeb": "https://resume-fabio.vercel.app",
     "profesion": "Bioengineer",
     "ocupacion": "Software Developer",
-    "cvpdf":"https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/assets/CVFabioSquizzatoEng.pdf",
+    "cvpdf": "https://raw.githubusercontent.com/fabio2100/jsonpersonal/master/assets/CVFabioSquizzatoEng.pdf",
     "foto": "https://cdn.jsdelivr.net/gh/fabio2100/jsonPersonal@master/images/perfil.jpg",
     "acercaDeMi": {
       "titulo": "About me",
@@ -230,6 +230,28 @@
     "titulo": "Portfolio",
     "lista": [
       {
+        "nombre": "NBA season 2026/27 predictor",
+        "tecnologias": ["TypeScript", "React", "MongoDB", "NextJS"],
+        "urls": [
+          {
+            "urlProyecto": "https://nbapredictor-indol.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/nbapredictor"
+          }
+        ],
+        "descripcion": "Web application allows estimating the results of the 2026/27 NBA season, using MongoDB for data persistence and React for the user interface."
+      },
+      {
+        "nombre": "FIFA World Cup 2026 predictor",
+        "tecnologias": ["TypeScript", "React", "API"],
+        "urls": [
+          {
+            "urlProyecto": "https://2026predictor-three.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/2026predictor"
+          }
+        ],
+        "descripcion": "Web application allows estimating the results of the 2026 FIFA World Cup, using localStorage for data persistence and React for the user interface."
+      },
+      {
         "nombre": "Antipodes Visualization on Map",
         "tecnologias": ["Python", "Github pages"],
         "urls": [
@@ -259,7 +281,7 @@
         ],
         "descripcion": "Web application to control personal credit card expenses, allows calculating monthly expenses, visualizing payment dates by month, expenses by month, and more."
       },
-            {
+      {
         "nombre": "National Routes Status of Argentina",
         "tecnologias": ["OpenStreetMap", "React", "Vite", "Github Copilot"],
         "urls": [

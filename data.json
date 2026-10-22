@@ -229,6 +229,28 @@
   "portfolio": {
     "titulo": "Portfolio",
     "lista": [
+       {
+        "nombre": "Pronosticador de resultados de la temporada 2026/27 de la NBA",
+        "tecnologias": ["TypeScript", "React", "MongoDB","NextJS"],
+        "urls": [
+          {
+            "urlProyecto": "https://nbapredictor-indol.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/nbapredictor"
+          }
+        ],
+        "descripcion": "Aplicación web permite estimar los resultados de la temporada 2026/27 de la NBA, utilizando MongoDB para la persistencia de datos y React para la interfaz de usuario."
+      },
+       {
+        "nombre": "Pronosticador de resultados de Copa Mundial 2026",
+        "tecnologias": ["TypeScript", "React", "API"],
+        "urls": [
+          {
+            "urlProyecto": "https://2026predictor-three.vercel.app/",
+            "urlRepositorio": "https://github.com/fabio2100/2026predictor"
+          }
+        ],
+        "descripcion": "Aplicación web permite estimar los resultados de la Copa Mundial 2026, utilizando localStorage para la persistencia de datos y React para la interfaz de usuario."
+      },
       {
         "nombre": "Visualización de antípodas en mapa",
         "tecnologias": ["Python", "Github pages"],
